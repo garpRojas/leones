@@ -131,6 +131,29 @@ header{
 
 
 
+/*About Secction*/
+
+.about-section-heading{
+	margin: 20px 0;
+}
+.about-section-heading h2{
+	font-size: 40px
+}
+.about-section-heading h2{
+	
+}
+.about-section-img img{
+	width: 90%
+}
+
+.about-section-text{
+	position: relative;
+    top: 100px;
+}
+.about-section-text p{    
+	font-size: 30px;
+}
+
 /*media Query*/
 
 @media all and (min-width: 1512px) and (max-width: 1767px){

@@ -109,27 +109,25 @@ header{
 }
 
 
-.advert-section{
+.carousel-section{
 	background-color: #051B5B;
 	z-index: -1;
 	position: relative;
-	display: contents;
+	overflow: visible;
 }
 
-.advert {
+.carousel {
 	width: 70%;
 	margin: 0 auto;
 	float: inherit;
 }
 
-.advert img{
+.carousel img{
 	width: 100%;
     z-index: -1;
     overflow: visible;
     position: relative;
 }
-
-
 
 /*About Secction*/
 

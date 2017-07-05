@@ -152,6 +152,20 @@ header{
 	font-size: 30px;
 }
 
+
+/*players section*/
+
+.players{
+	margin: 40px 0;
+}
+.players img{
+	width: 100%;
+}
+.players p{
+	margin: 10px;
+}
+
+
 /*media Query*/
 
 @media all and (min-width: 1512px) and (max-width: 1767px){

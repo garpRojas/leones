@@ -1,0 +1,29 @@
+[
+	{
+		"name" : "Glenn Rojas",
+		"position" : "FullBack",
+		"number" : "40",
+		"image" : "img/players/player_name.jpg"
+	},
+
+	{
+		"name" : "Javier Cedeno",
+		"position" : "Center",
+		"number" : "99",
+		"image" : "img/players/player_name.jpg"
+	},
+
+	{
+		"name" : "José Canas",
+		"position" : "O Tackle",
+		"number" : "80",
+		"image" : "img/players/player_name.jpg"
+	},
+
+	{
+		"name" : "Robert Loria",
+		"position" : "Coach",
+		"number" : "",
+		"image" : "img/players/player_name.jpg"
+	}
+]

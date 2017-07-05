@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head ng-app="WebProfile">
+<html ng-app="LeonesProfile">
+<head >
 
 	<meta charset="utf-8">
 	<meta name="description" content="American Football team Web Page">
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://use.fontawesome.com/25ef2129c1.js"></script>
 </head>
-<body ng-controller="webController">
+<body>
 
 	<header class="container-fluid">
 		<div class="row">
@@ -90,10 +90,31 @@
 			</div>
 		</div>
 	</section>
-
+	
+	<section class="contairner-fluid players">
+	<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-section-heading">
+				<h2 class="text-center">&mdash;&mdash;&mdash; Meet Our Team &mdash;&mdash;&mdash;</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2">
+				
+			</div>
+			<div ng-controller="CarouselControler" class="col-lg-8 main">
+				<div class="player col-lg-4" ng-repeat="item in player">
+			            <img ng-src="{{item.image}}"/>
+			            <p>Name: {{item.name}}</p>
+			            <p>Pos.: {{item.position}}</p>
+			            <p>#: {{item.number}}</p>
+      			</div>
+			</div>
+		</div>
+	</section>
 
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/angular/angular.min.js" type="text/javascript"></script>
+	<script src="js/angular/controller.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,0 +1,304 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
+/*Set enviroment*/
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+	font-family: 'Arvo', serif;
+}
+
+/*Header*/
+header{
+	background-color: #A5162A;
+	border-bottom: 4px solid #051B5B;
+}
+
+.tittle-leones{padding: 45px 0;}
+
+.tittle-leones h1{
+	font-size: 6.4em;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: italic;
+	word-spacing: 5px;
+	letter-spacing: -5px
+}
+
+
+.social-nav{
+
+	
+}
+
+.social-nav a{
+	font-size: 2.5em;
+	padding: 0 1em;
+}
+
+.social-nav a i{
+	color: #ffffff
+}
+/* 
+.social-nav a .fa-twitter{
+	color: #ffffff;
+}
+
+.social-nav a .fa-instagram{
+	color: #e4405f;
+	color: #ff9eb0;
+}
+
+.social-nav a .fa-google-plus{
+	color: #d9534f;
+	color: #ffbeac;
+} */
+
+
+.logo div{
+	margin: 0 auto;
+	width: 73%;
+}
+
+.logo div img{
+	position: absolute;
+	border: 4px solid #051B5B;
+	width: 15em;
+	top: -46px;
+	left: 36px;
+}
+
+
+
+.user-nav{
+	color: #ffffff;
+	top: 10px;
+}
+.user-nav a{
+	font-size: 2em;
+	padding: 0 1em 0 1em;
+	color: #ffffff;
+}
+.user-nav i{
+	font-size: 2em;
+	padding: 0 0 0 1em;
+}
+
+.user-nav input{
+	font-size: 1.3em;
+	position: relative;
+	top:-4px;
+}
+
+
+
+
+/*Nav bar */
+.navbar-nav > li {
+    float: left;
+	padding: 0 0 0 1.7em;
+}
+
+.navbar-nav > li a{
+   font-size: 1.4em;
+}
+
+
+.advert-section{
+	background-color: #051B5B;
+	z-index: -1;
+	position: relative;
+	display: contents;
+}
+
+.advert {
+	width: 70%;
+	margin: 0 auto;
+	float: inherit;
+}
+
+.advert img{
+	width: 100%;
+    z-index: -1;
+    overflow: visible;
+    position: relative;
+}
+
+
+
+/*media Query*/
+
+@media all and (min-width: 1512px) and (max-width: 1767px){
+.social-nav a{
+		font-size: 2em;
+}
+.user-nav a{
+	font-size: 2em;
+	padding: 0 1em 0 0;
+	color: #ffffff;
+}
+.user-nav i{
+	font-size: 2em;
+	padding: 0 0 0 1em;
+}
+
+.user-nav input{
+	font-size: 1em;
+	position: relative;
+	top:-3px;
+}
+.logo div{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.logo div img{
+	position: absolute;
+	border: 4px solid #051B5B;
+	width: 10em;
+	top: -30px;
+}
+
+.navbar-nav > li {
+    float: left;
+	padding: 0 0 0 1.7em;
+}
+
+.navbar-nav > li a{
+   font-size: 1.4em;
+}
+
+
+}
+
+@media all and (min-width: 1280px) and (max-width: 1512px){
+
+.tittle-leones{padding: 20px 0;}
+.social-nav a{
+		font-size: 2em;
+		padding: 0 0.4em;
+	}
+.user-nav a{
+	font-size: 1.4em;
+	padding: 0 1em 0 0;
+	color: #ffffff;
+}
+.user-nav i{
+	font-size: 1.5em;
+	padding: 0 0 0 1em;
+}
+
+.user-nav input{
+	font-size: 1em;
+	position: relative;
+	top:-2px;
+}
+.logo div{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.logo div img{
+	position: absolute;
+	border: 4px solid #051B5B;
+	width: 8em;
+	top:-4px;
+	left: 23px;
+}
+
+.navbar-nav > li {
+    float: left;
+	padding: 0;
+}
+
+.navbar-nav > li a{
+   font-size: 1.4em;
+}
+.second-nav{
+	    margin-left: 13.5% !important;
+}
+
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1287px){
+
+.tittle-leones{padding: 20px 0;}
+.social-nav a{
+		font-size: 2em;
+		padding: 0 0.4em;
+	}
+.user-nav a{
+	font-size: 1.4em;
+	padding: 0 1em 0 0;
+	color: #ffffff;
+}
+.user-nav i{
+	font-size: 1.5em;
+	padding: 0 0 0 1em;
+}
+
+.user-nav input{
+	font-size: 1em;
+	position: relative;
+	top:-2px;
+}
+.logo div{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.logo div img{
+	position: absolute;
+	border: 4px solid #051B5B;
+	width: 8em;
+	top:-4px;
+	left: 23px;
+}
+
+.navbar-nav > li {
+    float: left;
+	padding: 0;
+}
+
+.navbar-nav > li a{
+   font-size: 1.4em;
+}
+
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+.tittle-leones h1{
+	font-size: 4.2em;
+	letter-spacing: -5px;
+}
+
+}
+
+@media all and (min-width: 481px) and (max-width: 767px){
+
+.tittle-leones h1{
+	font-size: 3.2em;
+	letter-spacing: -1px
+}
+
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+
+.tittle-leones h1{
+	font-size: 1.8em;
+	letter-spacing: -1px
+}
+
+}
+

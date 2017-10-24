@@ -41,3 +41,10 @@ leonesProfile.controller('GalleryController', function MyController($scope, $htt
 		$scope.gallery = response.data;
 	});
 });
+
+leonesProfile.controller('LeagueController', function MyController($scope, $http){
+
+	$http.get('js/angular/league.json').then(function(response){
+		$scope.league = response.data;
+	});
+});

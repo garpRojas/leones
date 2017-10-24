@@ -109,24 +109,81 @@ header{
 }
 
 
-.advert-section{
+.carousel-section{
 	background-color: #051B5B;
 	z-index: -1;
 	position: relative;
-	display: contents;
+	overflow: visible;
 }
 
-.advert {
+.carousel {
 	width: 70%;
 	margin: 0 auto;
 	float: inherit;
 }
 
-.advert img{
+.carousel img{
 	width: 100%;
     z-index: -1;
     overflow: visible;
     position: relative;
+}
+
+/*About Secction*/
+
+.about-section-heading{
+	margin: 20px 0;
+}
+.about-section-heading h2{
+	font-size: 40px
+}
+.about-section-heading h2{
+	
+}
+.about-section-img img{
+	width: 90%
+}
+
+.about-section-text{
+	position: relative;
+    top: 100px;
+}
+.about-section-text p{    
+	font-size: 30px;
+}
+
+
+/*players section*/
+
+.players{
+	margin: 40px 0;
+}
+.players img{
+	width: 100%;
+}
+.players p{
+	margin: 10px;
+	font-size:25px;
+	text-align:center;
+}
+
+.players div i{
+	font-size: 140px;
+	position: relative;
+}
+
+.btn-galery{
+	padding-top: 12%;
+}
+
+/*Gallery*/
+.gallery div{
+	height:50%;
+}
+
+.gallery div img{
+	height: 500px;
+	margin-bottom: 10px;
 }
 
 
@@ -176,7 +233,7 @@ header{
 
 }
 
-@media all and (min-width: 1280px) and (max-width: 1512px){
+@media all and (min-width: 1280px) and (max-width: 1511px){
 
 .tittle-leones{padding: 20px 0;}
 .social-nav a{
@@ -226,7 +283,7 @@ header{
 
 }
 
-@media all and (min-width: 1024px) and (max-width: 1287px){
+@media all and (min-width: 1024px) and (max-width: 1277px){
 
 .tittle-leones{padding: 20px 0;}
 .social-nav a{
@@ -274,7 +331,7 @@ header{
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1023px){
 
 .tittle-leones h1{
 	font-size: 4.2em;

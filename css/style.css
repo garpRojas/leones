@@ -163,7 +163,29 @@ header{
 }
 .players p{
 	margin: 10px;
+	font-size:25px;
+	text-align:center;
 }
+
+.players div i{
+	font-size: 140px;
+	position: relative;
+}
+
+.btn-galery{
+	padding-top: 12%;
+}
+
+/*Gallery*/
+.gallery div{
+	height:50%;
+}
+
+.gallery div img{
+	height: 500px;
+	margin-bottom: 10px;
+}
+
 
 
 /*media Query*/
@@ -211,7 +233,7 @@ header{
 
 }
 
-@media all and (min-width: 1280px) and (max-width: 1512px){
+@media all and (min-width: 1280px) and (max-width: 1511px){
 
 .tittle-leones{padding: 20px 0;}
 .social-nav a{
@@ -261,7 +283,7 @@ header{
 
 }
 
-@media all and (min-width: 1024px) and (max-width: 1287px){
+@media all and (min-width: 1024px) and (max-width: 1277px){
 
 .tittle-leones{padding: 20px 0;}
 .social-nav a{
@@ -309,7 +331,7 @@ header{
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1023px){
 
 .tittle-leones h1{
 	font-size: 4.2em;

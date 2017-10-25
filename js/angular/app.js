@@ -1,4 +1,4 @@
-var leonesProfile = angular.module("LeonesProfile" , []);
+var leonesProfile = angular.module("LeonesProfile" , ['ngAnimate']);
 
 leonesProfile.controller('CarouselController', function MyController($scope, $http){
 	$scope.testing="next";
@@ -46,5 +46,14 @@ leonesProfile.controller('LeagueController', function MyController($scope, $http
 
 	$http.get('js/angular/league.json').then(function(response){
 		$scope.league = response.data;
+	});
+});
+
+leonesProfile.controller('ResultsController', function ($scope, $http) {
+        $scope.active = true;
+        $scope.active1 = true;
+
+        $http.get('js/angular/season.json').then(function(response){
+		$scope.match = response.data;
 	});
 });

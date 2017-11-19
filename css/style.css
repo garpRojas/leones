@@ -188,6 +188,12 @@ header{
 
 
 
+/*League Section*/
+.center-row{
+    margin: 0 auto;
+}
+
+
 /*media Query*/
 
 @media all and (min-width: 1512px) and (max-width: 1767px){
